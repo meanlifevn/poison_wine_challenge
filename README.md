@@ -11,13 +11,18 @@ The solution I used is to label each bottle with both its decimal number and bin
 In this question, I replace 'prisoners' with 'rats' to avoid human rights issues.
 
 ## Task 1: There are 1000 wine bottles, and 1 is poisoned. We use 10 rats to find the location of the poisoned wine.
-There is no data available, so I will generate new data with 2 objects: Wine and Rat.\\
+There is no data available, so I will generate new data with 2 objects: Wine and Rat.
 
-The 'Wine' object has 2 attributes: 'ID_wine', 'is_poisoned'.\\
-In this case, I set the type of 'ID_wine' is <int class>. I think I will change its type to <string class> in next time.\\
+The 'Wine' object has 2 attributes: 'ID_wine', 'is_poisoned'.
 
-Remember, 'ID_wine' is not an index that describes the location of wine.\\
-And, I set the type of 'is_poisoned' is <bool class>. If this is poison wine, 'is_poisoned' is 'True' and vice versa.\\
-The 'Rat' object has 3 attributes: 'ID_rat', 'is_poisoned', and 'tried_wine'.\\
+In this case, I set the type of 'ID_wine' is <int class>. I think I will change its type to <string class> in next time.
+
+Remember, 'ID_wine' is not an index that describes the location of wine.
+
+And, I set the type of 'is_poisoned' is <bool class>. If this is poison wine, 'is_poisoned' is 'True' and vice versa.
+
+The 'Rat' object has 3 attributes: 'ID_rat', 'is_poisoned', and 'tried_wine'.
+
 In this case, the types of the attributes 'ID_rat' and 'is_poisoned' are similar to 'ID_wine' and 'is_poisoned'. But 'is_poisoned' is the state of the rat, describing whether the rat is poisoned or not.
+
 As for 'tried_wine', I want to store a list of wine bottle IDs that the rat has tried. So the type of 'tried_wine' is <list>.
